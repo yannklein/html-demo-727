@@ -1,15 +1,15 @@
 /* Fonts and colors */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Permanent+Marker&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Zen+Antique+Soft&display=swap');
 body {
-  background-color: #FEF1F8;
+  background-color: #e0ecfa;
   font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2 {
-  font-family: 'Permanent Marker', cursive;
-  color: #820f0f;
+  font-family: 'Playfair Display', cursive;
+  color: #240C28;
 }
 
 
@@ -29,7 +29,7 @@ a {
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  object-position: 100% 50%;
+  object-position: 80% 50%;
   box-shadow: 4px 4px 8px rgb(0 0 0 / 30%)
 }
 
@@ -50,7 +50,7 @@ a {
 }
 
 .btn-blue:hover {
-  background-color: #FF0B68;
+  background-color: #E61F2C;
   color: rgb(20,20,20);
   transition: .3s;
 }
